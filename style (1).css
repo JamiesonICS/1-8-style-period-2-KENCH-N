@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.li {
+    float: left;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-image: url("images/navigationbar.jpg");
+    position: sticky;
+    top: 0;
+}
+
+li a {
+    display: block;
+    
+    padding: 16px 14px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+}
+
+body {
+    background-image: url("images/lebron.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@keyframes rainbow {
+    0% {color: red;}
+    50% {color: green;}
+    100% {color: blue;}
+}
+
+@keyframes background {
+    0% {color: rgba(200, 255, 0, 0)}
+    50% {color: rgb(200, 255, 0)}
+    100% {color: rgba(200, 255, 0, 0.493)}
+
+}
+
+.text {
+    padding-left: 15px;
+    padding-top: 15px;
+    animation: rainbow 1s infinite;
+    font-size: 20px;
+}
